@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oSolid",
+  "%Name":"oRocks",
   "eventList":[],
   "managed":true,
-  "name":"oSolid",
+  "name":"oRocks",
   "overriddenProperties":[],
   "parent":{
     "name":"mining",
