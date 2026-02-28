@@ -1,4 +1,5 @@
 randomise()
+global.Energy = 100
 // Room generator object: Create Event
 var w = 1316/16; // grid width
 var h = 32; // grid height
