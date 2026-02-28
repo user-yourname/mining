@@ -25,3 +25,21 @@ if (place_meeting(x, y + 1, oSolid)) {
 }
 
 move_and_collide(x_speed, y_speed, oSolid);
+if keyboard_check(vk_right) or keyboard_check(ord("D")) {
+
+    x_speed = walk_speed; 
+
+    image_xscale = 1; // flip heidi's sprite so she faces right
+
+} else if keyboard_check(vk_left) or keyboard_check(ord("A")) {
+
+    x_speed = -walk_speed; 
+
+    image_xscale = -1; // reset her sprite so she faces left
+
+}
+if (y > room_height or y < 0 or x > room_width or x < 0) { // if the player is outside of the room
+
+    room_restart(); 
+
+}
