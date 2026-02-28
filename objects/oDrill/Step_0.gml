@@ -11,7 +11,7 @@ if keyboard_check(vk_right) or keyboard_check(ord("D")){
     x_speed = -walk_speed;
 
 }
-if (place_meeting(x, y + 1, oRocks)) { 
+if (place_meeting(x, y + 1, oRocks))
 
     if (keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W"))) { 
 
@@ -22,7 +22,6 @@ if (place_meeting(x, y + 1, oRocks)) {
         y_speed = 0; 
     }
 
-}
 
 move_and_collide(x_speed, y_speed, oRocks);
 if keyboard_check(vk_right) or keyboard_check(ord("D")) {
@@ -43,4 +42,3 @@ if (y > room_height or y < 0 or x > room_width or x < 0) { // if the player is o
     room_restart(); 
 
 }
-show_debug_message(x)
