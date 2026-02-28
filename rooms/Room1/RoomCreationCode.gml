@@ -1,7 +1,7 @@
 randomise()
 global.Energy = 100
 // Room generator object: Create Event
-var w = 1316/16; // grid width
+var w = 1364/16; // grid width
 var h = 32; // grid height
 global.grid = array_create(w);
 
@@ -24,13 +24,13 @@ for (var i = 0; i < w; i++) {
 for (var i = 0; i < w; i++) {
     for (var j = 0; j < h; j++) {
         if (global.grid[i][j] == 1) {
-            instance_create_layer(i*16, j*16+188, "Instances", oOre);
+            instance_create_layer(i*16, j*16+192, "Instances", oOre);
         }
 		 if (global.grid[i][j] == 0) {
-            instance_create_layer(i*16, j*16+188, "Instances", oStone);
+            instance_create_layer(i*16, j*16+192, "Instances", oStone);
         }
 		 if (global.grid[i][j] == 2) {
-			 instance_create_layer(i*16, j*16+188, "Instances", o2Ore);
+			 instance_create_layer(i*16, j*16+192, "Instances", o2Ore);
 		 }
     }
 }

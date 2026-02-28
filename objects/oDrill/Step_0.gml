@@ -1,4 +1,4 @@
-x_speed = 0; // reset horizontal speed 
+x_speed = 0;
 
 y_speed += .5; 
 
@@ -23,7 +23,7 @@ if (place_meeting(x, y + 1, oRocks))
     }
 
 
-move_and_collide(x_speed, y_speed, oRocks);
+move_and_collide(x_speed, y_speed, oRocks, 20);
 if keyboard_check(vk_right) or keyboard_check(ord("D")) {
 
     x_speed = walk_speed; 
