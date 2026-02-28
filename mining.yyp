@@ -23,11 +23,13 @@
   "name":"mining",
   "resources":[
     {"id":{"name":"o2Ore","path":"objects/o2Ore/o2Ore.yy",},},
+    {"id":{"name":"Ocursor","path":"objects/Ocursor/Ocursor.yy",},},
     {"id":{"name":"oDrill","path":"objects/oDrill/oDrill.yy",},},
     {"id":{"name":"oOre","path":"objects/oOre/oOre.yy",},},
     {"id":{"name":"oRocks","path":"objects/oRocks/oRocks.yy",},},
     {"id":{"name":"oStone","path":"objects/oStone/oStone.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"mouse_hitbox","path":"sprites/mouse_hitbox/mouse_hitbox.yy",},},
     {"id":{"name":"s2Ore","path":"sprites/s2Ore/s2Ore.yy",},},
     {"id":{"name":"sBomb","path":"sprites/sBomb/sBomb.yy",},},
     {"id":{"name":"sDrill","path":"sprites/sDrill/sDrill.yy",},},

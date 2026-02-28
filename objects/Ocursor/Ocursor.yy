@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oStone",
-  "eventList":[],
+  "%Name":"Ocursor",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oStone",
+  "name":"Ocursor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"mining",
+    "path":"mining.yyp",
   },
-  "parentObjectId":{
-    "name":"oRocks",
-    "path":"objects/oRocks/oRocks.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sStone",
-    "path":"sprites/sStone/sStone.yy",
+  "spriteId":null,
+  "spriteMaskId":{
+    "name":"mouse_hitbox",
+    "path":"sprites/mouse_hitbox/mouse_hitbox.yy",
   },
-  "spriteMaskId":null,
   "visible":true,
 }
