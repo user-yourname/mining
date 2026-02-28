@@ -24,11 +24,7 @@
   "resources":[
     {"id":{"name":"o2Ore","path":"objects/o2Ore/o2Ore.yy",},},
     {"id":{"name":"oDrill","path":"objects/oDrill/oDrill.yy",},},
-<<<<<<< Updated upstream
     {"id":{"name":"oOre","path":"objects/oOre/oOre.yy",},},
-=======
-    {"id":{"name":"oSoild","path":"objects/oSoild/oSoild.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"oStone","path":"objects/oStone/oStone.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"s2Ore","path":"sprites/s2Ore/s2Ore.yy",},},
