@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"o2Ore",
+  "%Name":"oSolid",
   "eventList":[],
   "managed":true,
-  "name":"o2Ore",
+  "name":"oSolid",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"mining",
+    "path":"mining.yyp",
   },
-  "parentObjectId":{
-    "name":"oSolid",
-    "path":"objects/oSolid/oSolid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s2Ore",
-    "path":"sprites/s2Ore/s2Ore.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
