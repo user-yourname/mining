@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oStone",
+  "%Name":"o2Ore",
   "eventList":[],
   "managed":true,
-  "name":"oStone",
+  "name":"o2Ore",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sStone",
-    "path":"sprites/sStone/sStone.yy",
+    "name":"s2Ore",
+    "path":"sprites/s2Ore/s2Ore.yy",
   },
   "spriteMaskId":null,
   "visible":true,

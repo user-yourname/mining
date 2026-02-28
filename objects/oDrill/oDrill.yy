@@ -9,8 +9,8 @@
   "name":"oDrill",
   "overriddenProperties":[],
   "parent":{
-    "name":"mining",
-    "path":"mining.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
