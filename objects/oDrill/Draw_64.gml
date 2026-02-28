@@ -1,0 +1,1 @@
+draw_healthbar(10, 10, 330, 50, global.Energy, c_white , c_red, c_green, 0, true, true)

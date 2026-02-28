@@ -40,6 +40,5 @@ if keyboard_check(vk_right) or keyboard_check(ord("D")) {
 if (y > room_height or y < 0 or x > room_width or x < 0) { // if the player is outside of the room
 
     room_restart(); 
-
+ 
 }
-draw_healthbar(10, 10, 110, 20, global.Energy, c_black , c_red, c_green, 0, true, true)

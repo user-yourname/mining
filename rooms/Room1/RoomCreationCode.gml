@@ -34,4 +34,3 @@ for (var i = 0; i < w; i++) {
 		 }
     }
 }
-Draw_healthbar(10, 10, 110, 20, global.Energy, c_black , c_red, c_green, 0, true, true)
