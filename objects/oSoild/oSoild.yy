@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oStone",
+  "%Name":"oSoild",
   "eventList":[],
   "managed":true,
-  "name":"oStone",
+  "name":"oSoild",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"mining",
+    "path":"mining.yyp",
   },
-  "parentObjectId":{
-    "name":"oSoild",
-    "path":"objects/oSoild/oSoild.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sStone",
-    "path":"sprites/sStone/sStone.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
