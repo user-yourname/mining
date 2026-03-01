@@ -45,3 +45,9 @@ if (y > room_height or y < 0 or x > room_width or x < 0) { // if the player is o
     room_restart(); 
  
 }
+if keyboard_check(ord("Q")) and keyboard_check(ord("L"))
+{
+	x = 688
+	y = 176
+	global.Gold = 0
+}
