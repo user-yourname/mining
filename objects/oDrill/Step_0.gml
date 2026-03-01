@@ -18,7 +18,7 @@ if (place_meeting(x, y + 1, oRocks))
 
     if (keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W"))) { 
 
-        y_speed = -10; 
+        y_speed = -jump; 
 
     } else { 
 
