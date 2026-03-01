@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Ocursor",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oBattery",
+  "eventList":[],
   "managed":true,
-  "name":"Ocursor",
+  "name":"oBattery",
   "overriddenProperties":[],
   "parent":{
     "name":"mining",
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sBattery",
+    "path":"sprites/sBattery/sBattery.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
