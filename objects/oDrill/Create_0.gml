@@ -2,9 +2,9 @@ x_speed = 0;
 
 y_speed = 0; 
 
-walk_speed = 1; 
+walk_speed = 2; 
 
-JumpCount = 1
+jump = 7.5
 
 global.Capacity = 10
 
