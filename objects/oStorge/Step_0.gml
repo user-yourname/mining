@@ -1,3 +1,10 @@
 if mouse_check_button_pressed(mb_left) and place_meeting(x,y,Ocursor){
-	global.Capcity+=5
+	
+	if global.HouseGold >= global.Scost
+	{
+		global.HouseGold -= global.Scost
+		global.EnergyCost = global.EnergyCost * EnergyCostChange
+		global.Scost = global.Scost * CostScale
+		
+	}
 }

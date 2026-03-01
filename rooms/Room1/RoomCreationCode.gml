@@ -2,6 +2,7 @@ randomise()
 global.Energy = 100
 global.GoldPercent = 0
 global.Bcost = 10
+global.Scost = 15
 // Room generator object: Create Event
 var w = 1364/16; // grid width
 var h = 32; // grid height
