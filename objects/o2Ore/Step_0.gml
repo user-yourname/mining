@@ -5,13 +5,13 @@ if (keyboard_check_pressed(ord("S")) or keyboard_check_pressed(vk_down)) and glo
 			global.Energy -= global.EnergyCost
 			global.Gold+=5
 		}
-	}else if keyboard_check(ord("A")) or keyboard_check(vk_left){
+	}else if (keyboard_check(ord("A")) or keyboard_check(vk_left)){
 		if place_meeting(x+1,y,oDrill){
 			instance_deactivate_object(self)
 			global.Energy -= global.EnergyCost
 			global.Gold+=5
 		}
-	}else if place_meeting(x,y-1,oDrill){
+	}else if (place_meeting(x,y-1,oDrill)) {
 		instance_deactivate_object(self)
 		global.Energy -= global.EnergyCost
 		global.Gold+=5
