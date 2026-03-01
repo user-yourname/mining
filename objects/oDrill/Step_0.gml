@@ -2,6 +2,9 @@ x_speed = 0;
 
 y_speed += .5; 
 
+global.GoldPercent = (global.Gold / global.Capacity) * 100
+
+
 if keyboard_check(vk_right) or keyboard_check(ord("D")){  
 
     x_speed = walk_speed;  
