@@ -1,0 +1,1 @@
+global.EnergyCost = 10
