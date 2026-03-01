@@ -34,5 +34,5 @@
     "path":"sprites/sStorge/sStorge.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
