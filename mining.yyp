@@ -32,6 +32,7 @@
     {"id":{"name":"oRocks","path":"objects/oRocks/oRocks.yy",},},
     {"id":{"name":"oStone","path":"objects/oStone/oStone.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"mouse_hitbox","path":"sprites/mouse_hitbox/mouse_hitbox.yy",},},
     {"id":{"name":"s2Ore","path":"sprites/s2Ore/s2Ore.yy",},},
     {"id":{"name":"sBattery","path":"sprites/sBattery/sBattery.yy",},},
     {"id":{"name":"sBedrock","path":"sprites/sBedrock/sBedrock.yy",},},

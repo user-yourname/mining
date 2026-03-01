@@ -30,6 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":null,
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"mouse_hitbox",
+    "path":"sprites/mouse_hitbox/mouse_hitbox.yy",
+  },
   "visible":true,
 }
