@@ -3,6 +3,9 @@ global.Energy = 100
 global.GoldPercent = 0
 global.Bcost = 10
 global.Scost = 15
+global.housed = 0
+global.Capacity = 10
+global.OreCount = 0
 // Room generator object: Create Event
 var w = 1364/16; // grid width
 var h = 32; // grid height
@@ -14,9 +17,11 @@ for (var i = 0; i < w; i++) {
         // 10% chance of ore
 		if (irandom(100) < 1) {
 			global.grid[i][j] = 2; // rare ore
+			global.OreCount += 1
 		}
        else if (irandom(100) < 10) {
             global.grid[i][j] = 1; // ore
+			global.OreCount += 1
         } else {
             global.grid[i][j] = 0; // rock
         }

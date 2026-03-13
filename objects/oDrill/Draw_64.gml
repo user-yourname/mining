@@ -3,5 +3,5 @@ draw_healthbar(10, 60, 330, 100, global.GoldPercent, c_black , c_yellow, c_yello
 draw_text((oHome.x-x+180)*3.79444444,(oHome.y-y+90)*4.26666667,string(global.HouseGold))
 if global.housed=1{
 	draw_text((oBattery.x-x+180)*3.7944444,(oBattery.y-y+90)*4.26666667,string(global.Bcost))
-	// draw_text((oStorge.x-x+180)*3.7944444,(oStorge.y-y+90)*4.26666667,string(global.Scost))
+	draw_text((oStorge.x-x+180)*3.7944444,(oStorge.y-y+90)*4.26666667,string(global.Scost))
 }

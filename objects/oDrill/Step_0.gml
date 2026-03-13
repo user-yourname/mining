@@ -51,3 +51,7 @@ if keyboard_check(ord("Q")) and keyboard_check(ord("L"))
 	y = 176
 	global.Gold = 0
 }
+if global.Gold > global.Capacity
+{
+	global.Gold = global.Capacity
+}

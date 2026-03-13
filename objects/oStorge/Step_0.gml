@@ -4,7 +4,7 @@ if mouse_check_button_pressed(mb_left) and place_meeting(x,y,Ocursor){
 	{
 		global.HouseGold -= global.Scost
 		global.Capacity = global.Capacity * StorageChange
-		global.Scost = global.Scost * CostScale
+		global.Scost = ceil(global.Scost * CostScale)
 		
 	}
 }
