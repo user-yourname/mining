@@ -5,9 +5,10 @@ global.Bcost = 10
 global.Scost = 15
 global.housed = 0
 global.Capacity = 10
-global.OreCount = 
-w = 1364/16; //  width
-h = 32; // height
+global.OreCount = 0
+// Room generator object: Create Event
+var w = 1364/16; // grid width
+var h = 32; // grid height
 global.grid = array_create(w);
 
 for (var i = 0; i < w; i++) {
@@ -26,6 +27,8 @@ for (var i = 0; i < w; i++) {
         }
     }
 }
+
+// After generating, place objects
 for (var i = 0; i < w; i++) {
     for (var j = 0; j < h; j++) {
         if (global.grid[i][j] == 1) {
